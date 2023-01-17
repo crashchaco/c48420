@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- FORMULARIOS -->
+
+    <form action="" method="post">
+      <fieldset>
+        <legend>DATOS PERSONALES</legend>
+        <div>
+          <label for="nombre">INGRESE NOMBRE COMPLETO</label>
+          <input
+            type="text"
+            name=""
+            id="nombre"
+            required
+            placeholder="NOMBRE Y APELLIDO"
+          />
+        </div>
+        <div>
+          <label for="email">INGRESE SU CORREO</label>
+          <input
+            type="email"
+            name=""
+            id="email"
+            required
+            placeholder="ejemplo@ejemplo.com"
+          />
+        </div>
+        <div>
+          <label for="contrasena">INGRESE SU CONTRASEÑA</label>
+          <input type="password" name="" id="contrasena" required />
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>DATOS LABORALES</legend>
+        <p>Jornada Laboral</p>
+        <label for="tc">Tiempo Completo</label>
+        <input type="radio" name="jornada" id="tc" value="Tiempo completo" />
+        <label for="mt">Medio Tiempo</label>
+        <input type="radio" name="jornada" id="mt" value="Medio Tiempo" />
+
+        <p>Lenguajes que conoces</p>
+
+        <div>
+          <label for="html">HTML</label>
+          <input type="checkbox" name="lenguaje" id="html" value="HTML" />
+          <label for="css">CSS</label>
+          <input type="checkbox" name="lenguaje" id="css" value="CSS" />
+          <label for="js">JAVASCRIPT</label>
+          <input type="checkbox" name="lenguaje" id="js" value="JS" />
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>MENSAJE A ENVIAR</legend>
+        <textarea name="" id="" cols="16" rows="6"> </textarea>
+        <input type="button" value="Soy el Botón" />
+        <input id="enviar" type="submit" value="Enviar" />
+        <input id="reset" type="reset" value="Limpiar" />
+      </fieldset>
+    </form>
+  </body>
+</html>

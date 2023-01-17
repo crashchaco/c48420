@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "fuentelocal";
+  src: url(../assets/fonts/numberlin_ordinary/Numberlin.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* width: 100vw; */
+  height: 150vh;
+}
+
+header {
+  width: 100vw;
+  height: 10vh;
+  background-color: rgb(56, 59, 58);
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+  margin-left: 100px;
+  margin-top: 15px;
+  border: 2px solid orange;
+  background-color: brown;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+main {
+  width: 100vw;
+  height: 130vh;
+  background-color: aquamarine;
+  font-size: 0;
+}
+
+#novedades {
+  width: 50vw;
+  height: 100%;
+  background-color: rgb(87, 151, 38);
+  display: inline-block;
+  font-size: 1rem;
+}
+
+#promociones {
+  width: 50vw;
+  height: 100%;
+  background-color: rgb(88, 29, 171);
+  display: inline-block;
+  font-size: 1rem;
+  vertical-align: top;
+}
+
+div {
+  width: 50%;
+  height: 50%;
+  background-color: orange;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+#cUno {
+}
+
+#cDos {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  background-color: pink;
+  right: 0;
+  top: 75%;
+}
+
+#cTres {
+}
+
+footer {
+  width: 100vw;
+  height: 10vh;
+  background-color: rgb(46, 48, 47);
+}
